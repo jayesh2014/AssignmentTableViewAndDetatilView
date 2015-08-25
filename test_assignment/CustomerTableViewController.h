@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomerTableViewController.h
 //  test_assignment
 //
 //  Created by mac on 8/24/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)login_Method:(id)sender;
+@interface CustomerTableViewController : UITableViewController
 
 @end
-

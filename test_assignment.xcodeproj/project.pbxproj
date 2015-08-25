@@ -14,6 +14,13 @@
 		04185AAD1B8AEFE20087F0F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04185AAC1B8AEFE20087F0F4 /* Images.xcassets */; };
 		04185AB01B8AEFE20087F0F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04185AAE1B8AEFE20087F0F4 /* LaunchScreen.xib */; };
 		04185ABC1B8AEFE20087F0F4 /* test_assignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04185ABB1B8AEFE20087F0F4 /* test_assignmentTests.m */; };
+		04185AD01B8AF4E90087F0F4 /* CustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04185ACF1B8AF4E90087F0F4 /* CustomerTableViewController.m */; };
+		04185AD31B8AF9150087F0F4 /* myModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04185AD21B8AF9150087F0F4 /* myModel.m */; };
+		04185AD61B8AF94D0087F0F4 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04185AD51B8AF94D0087F0F4 /* customCell.m */; };
+		0441D0EA1B8B5733005FA221 /* ShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D0E91B8B5733005FA221 /* ShowDetailViewController.m */; };
+		04C17DE51B8C312300B32DBE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C17DE41B8C312300B32DBE /* MapKit.framework */; };
+		04C17DE81B8C386A00B32DBE /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C17DE71B8C386A00B32DBE /* MapPoint.m */; };
+		04C17DEA1B8C3A0600B32DBE /* map2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C17DE91B8C3A0600B32DBE /* map2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,18 @@
 		04185AB51B8AEFE20087F0F4 /* test_assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_assignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04185ABA1B8AEFE20087F0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04185ABB1B8AEFE20087F0F4 /* test_assignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_assignmentTests.m; sourceTree = "<group>"; };
+		04185ACE1B8AF4E90087F0F4 /* CustomerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewController.h; sourceTree = "<group>"; };
+		04185ACF1B8AF4E90087F0F4 /* CustomerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewController.m; sourceTree = "<group>"; };
+		04185AD11B8AF9150087F0F4 /* myModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myModel.h; sourceTree = "<group>"; };
+		04185AD21B8AF9150087F0F4 /* myModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myModel.m; sourceTree = "<group>"; };
+		04185AD41B8AF94D0087F0F4 /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		04185AD51B8AF94D0087F0F4 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		0441D0E81B8B5733005FA221 /* ShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDetailViewController.h; sourceTree = "<group>"; };
+		0441D0E91B8B5733005FA221 /* ShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDetailViewController.m; sourceTree = "<group>"; };
+		04C17DE41B8C312300B32DBE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04C17DE61B8C386A00B32DBE /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		04C17DE71B8C386A00B32DBE /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		04C17DE91B8C3A0600B32DBE /* map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C17DE51B8C312300B32DBE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 		04185A931B8AEFE10087F0F4 = {
 			isa = PBXGroup;
 			children = (
+				04C17DE41B8C312300B32DBE /* MapKit.framework */,
 				04185A9E1B8AEFE10087F0F4 /* test_assignment */,
 				04185AB81B8AEFE20087F0F4 /* test_assignmentTests */,
 				04185A9D1B8AEFE10087F0F4 /* Products */,
@@ -82,13 +103,22 @@
 			isa = PBXGroup;
 			children = (
 				04185AA31B8AEFE10087F0F4 /* AppDelegate.h */,
+				04C17DE61B8C386A00B32DBE /* MapPoint.h */,
+				04C17DE91B8C3A0600B32DBE /* map2.png */,
+				04C17DE71B8C386A00B32DBE /* MapPoint.m */,
 				04185AA41B8AEFE10087F0F4 /* AppDelegate.m */,
 				04185AA61B8AEFE10087F0F4 /* ViewController.h */,
 				04185AA71B8AEFE10087F0F4 /* ViewController.m */,
+				04185ACE1B8AF4E90087F0F4 /* CustomerTableViewController.h */,
+				0441D0E81B8B5733005FA221 /* ShowDetailViewController.h */,
+				0441D0E91B8B5733005FA221 /* ShowDetailViewController.m */,
+				04185ACF1B8AF4E90087F0F4 /* CustomerTableViewController.m */,
 				04185AA91B8AEFE10087F0F4 /* Main.storyboard */,
 				04185AAC1B8AEFE20087F0F4 /* Images.xcassets */,
 				04185AAE1B8AEFE20087F0F4 /* LaunchScreen.xib */,
 				04185A9F1B8AEFE10087F0F4 /* Supporting Files */,
+				04185AD11B8AF9150087F0F4 /* myModel.h */,
+				04185AD21B8AF9150087F0F4 /* myModel.m */,
 			);
 			path = test_assignment;
 			sourceTree = "<group>";
@@ -98,6 +128,8 @@
 			children = (
 				04185AA01B8AEFE10087F0F4 /* Info.plist */,
 				04185AA11B8AEFE10087F0F4 /* main.m */,
+				04185AD41B8AF94D0087F0F4 /* customCell.h */,
+				04185AD51B8AF94D0087F0F4 /* customCell.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +234,7 @@
 				04185AAB1B8AEFE10087F0F4 /* Main.storyboard in Resources */,
 				04185AB01B8AEFE20087F0F4 /* LaunchScreen.xib in Resources */,
 				04185AAD1B8AEFE20087F0F4 /* Images.xcassets in Resources */,
+				04C17DEA1B8C3A0600B32DBE /* map2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0441D0EA1B8B5733005FA221 /* ShowDetailViewController.m in Sources */,
+				04185AD61B8AF94D0087F0F4 /* customCell.m in Sources */,
 				04185AA81B8AEFE10087F0F4 /* ViewController.m in Sources */,
+				04185AD01B8AF4E90087F0F4 /* CustomerTableViewController.m in Sources */,
 				04185AA51B8AEFE10087F0F4 /* AppDelegate.m in Sources */,
+				04C17DE81B8C386A00B32DBE /* MapPoint.m in Sources */,
 				04185AA21B8AEFE10087F0F4 /* main.m in Sources */,
+				04185AD31B8AF9150087F0F4 /* myModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +454,7 @@
 				04185AC11B8AEFE20087F0F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04185AC21B8AEFE20087F0F4 /* Build configuration list for PBXNativeTarget "test_assignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				04185AC41B8AEFE20087F0F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

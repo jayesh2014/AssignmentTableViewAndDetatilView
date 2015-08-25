@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)login_Method:(id)sender {
+    [self performSegueWithIdentifier:@"CustomerTableView" sender:self];
+}
 @end
